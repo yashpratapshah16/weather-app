@@ -43,7 +43,10 @@ export default function Home() {
           type="submit"
           className="bg-[#809EA1] transition-all hover:shadow-white hover:border-white  hover:text-white text-black border"
         >
-          <Search />
+          {onSubmitted ?
+            "Loading..."
+            : <Search />
+          }
         </Button>
       </form>
       {
