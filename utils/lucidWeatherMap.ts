@@ -1,0 +1,35 @@
+import {
+    Sun,
+    Moon,
+    CloudSun,
+    CloudMoon,
+    Cloud,
+    CloudRain,
+    CloudLightning,
+    Snowflake,
+    CloudDrizzle,
+    Wind,
+    CloudFog,
+  } from "lucide-react";
+  
+  export const lucidWeatherMap: { [key: string]: React.ElementType } = {
+    "01d": Sun,
+    "01n": Moon,
+    "02d": CloudSun,
+    "02n": CloudMoon,
+    "03d": Cloud,
+    "03n": Cloud,
+    "04d": Cloud,
+    "04n": Cloud,
+    "09d": CloudDrizzle,
+    "09n": CloudDrizzle,
+    "10d": CloudRain,
+    "10n": CloudRain,
+    "11d": CloudLightning,
+    "11n": CloudLightning,
+    "13d": Snowflake,
+    "13n": Snowflake,
+    "50d": CloudFog,
+    "50n": Wind,
+  };
+  
