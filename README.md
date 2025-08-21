@@ -1,17 +1,4 @@
 
-*COMPANY*: CODTECH IT SOLUTIONS
-
-*NAME*: YASHPRATAP SHAH
-
-*INTERN ID*: CT04DA274
-
-*DOMAIN*: FULL STACK WEB DEVELOPMENT
-
-*DURATION*: 4 WEEKS
-
-*MENTOR*: NEELA SANTHOSH
-
-
 # Weather App
 
 A production-ready weather forecasting web application built with modern frontend technologies.\
